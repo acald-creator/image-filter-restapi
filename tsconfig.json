@@ -3,11 +3,18 @@
         "outDir": "./wwww",
         "allowJs": true,
         "target": "ES5",
-        "lib": ["ES2015"],
+        "lib": [
+            "ES2015"
+        ],
         "esModuleInterop": true
     },
     "include": [
         "*",
-        "./src/**/*"
+        "./src/**/*",
+        "example/_grayscale.js",
+        "example/_resize.js",
+        "example/_tint.js",
+        "example/utility.js",
+        "example/app"
     ]
 }
