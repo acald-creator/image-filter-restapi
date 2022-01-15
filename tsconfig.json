@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "outDir": "./wwww",
+        "allowJs": true,
+        "target": "ES5",
+        "lib": ["ES2015"],
+        "esModuleInterop": true
+    },
+    "include": [
+        "*",
+        "./src/**/*"
+    ]
+}
