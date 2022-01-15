@@ -6,6 +6,7 @@ specifiers:
   ejs: ^3.1.6
   express: ^4.17.2
   jshint: ^2.13.3
+  mkdirp: ^1.0.4
   multer: ^1.4.4
   sharp: ^0.29.3
   uuid: ^8.3.2
@@ -21,6 +22,7 @@ dependencies:
 devDependencies:
   chokidar: 3.5.2
   jshint: 2.13.3
+  mkdirp: 1.0.4
 
 packages:
 
@@ -720,6 +722,12 @@ packages:
     dependencies:
       minimist: 1.2.5
     dev: false
+
+  /mkdirp/1.0.4:
+    resolution: {integrity: sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==}
+    engines: {node: '>=10'}
+    hasBin: true
+    dev: true
 
   /ms/2.0.0:
     resolution: {integrity: sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=}
